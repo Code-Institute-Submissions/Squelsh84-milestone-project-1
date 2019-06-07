@@ -14,4 +14,23 @@
     font-weight: 700;
     font-size: 1rem;
     letter-spacing: .1rem;
+    padding-top: 1.5px;
+    padding-bottom: 1.5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*------------------ Landing Page--------------*/
+
+.callout-container {
+    background: url('/assets/images/house.jpg') no-repeat bottom right fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.jumbotron {
+    background-color: transparent;
 }
