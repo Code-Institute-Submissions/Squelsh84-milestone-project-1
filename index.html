@@ -11,18 +11,17 @@
     <title>Maide Connemara</title>
 </head>
 
-<body>
+<body data-spy="scroll" datatarget="#navbarResponsive">
     <!------ Start Home Section ---------->
     <div id="home">
 
         <!-- Start Navigation -->
         <nav class="navbar navbar-expand-md navbar-light bg-light  navbar-fixed-top">
             <a class="navbar-brand" href="#">Maide Connemara</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class ="navbar-toggler-icon">
-                </span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class ="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#main">Home</a>
@@ -49,13 +48,14 @@
 
         <!-------------- Landing Page ---------->
         <div class="container-fluid callout-container">
-        <div class="opaque-overlay"></div>
-        <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-center">
-                    <h1 class="jumbotron-header">Maide Connemara</h1>
-                    <p class="slogan">The magic begins when you take the stick for a walk</p>
-                </section>
+            <div class="opaque-overlay"></div>
+            <div class="row">
+                <div class="col-12">
+                    <section class="callout jumbotron text-center">
+                        <h1 class="jumbotron-header">Maide Connemara</h1>
+                        <p class="slogan">The magic begins when you take the stick for a walk</p>
+                    </section>
+                </div>
             </div>
         </div>
 
@@ -66,56 +66,67 @@
         <!--------- End Home Section -------->
 
         <!--------Start About Us -------->
-        <div id="about">
-
-
-
+        <div class="container-fluid">
+            <div class="row" id="about">
+                <section class="text-center">
+                    <h2 class="text-center"> About Us</h2>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://player.vimeo.com/video/339725363?autoplay=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+                    <p><a href="https://vimeo.com/339725363">Walking In Time By Benjamin Walsh</a> from <a href="https://vimeo.com/user63464162">Benjamin Walsh</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                </section>
+            </div>
         </div>
-        <!--------End About Us----------->
-
-
-        <!--------Start Woods Section-------->
-        <div id="woods" class="offset">
 
 
 
-        </div>
-        <!--------End Woods ----------->
 
-        <!--------Start Making Section-------->
-        <div id="making" class="offset">
+    </div>
+    <!--------End About Us----------->
 
 
-
-        </div>
-        <!--------End Making Section ----------->
-
-
-        <!--------Start Gallery Section-------->
-        <div id="gallery" class="offset">
+    <!--------Start Woods Section-------->
+    <div id="woods" class="offset">
 
 
 
-        </div>
-        <!--------End Gallery Section ----------->
+    </div>
+    <!--------End Woods ----------->
 
-        <!--------Start Contact Section-------->
-        <div id="contact" class="offset">
-          
-
-
-        </div>
-        <!--------End Contact Section ----------->
+    <!--------Start Making Section-------->
+    <div id="making" class="offset">
 
 
 
-        <footer>
+    </div>
+    <!--------End Making Section ----------->
 
 
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!--------Start Gallery Section-------->
+    <div id="gallery" class="offset">
+
+
+
+    </div>
+    <!--------End Gallery Section ----------->
+
+    <!--------Start Contact Section-------->
+    <div id="contact" class="offset">
+
+
+
+    </div>
+    <!--------End Contact Section ----------->
+
+
+
+    <footer>
+
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>
