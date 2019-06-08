@@ -79,3 +79,29 @@
 .jumbotron-contact {
     background-color: #044bbf;
 }
+
+/*------------------ Types of Woods--------------*/
+
+
+.jumbotron-wood {
+    background: url('/assets/images/forest.jpg') no-repeat bottom right fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    font-style: italic;
+}
+
+
+
+
+
+/*------------------ Contact--------------*/
+
+
+.contact-form {
+    position: relative;
+    
+}
