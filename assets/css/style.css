@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 
-
+.container-fluid {
+     width: 100%;
+}
 
 
 
@@ -40,6 +42,11 @@
 .jumbotron {
     background-color: transparent;
     text-transform: uppercase;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    margin-top: 5rem;
+    text-shadow: 2px 1px black;
 }
 
 .jumbotron-header {
@@ -93,7 +100,7 @@
 
 
 .jumbotron-wood {
-    background: url('/assets/images/forest.jpg') no-repeat bottom right fixed;
+    background: url('https://res.cloudinary.com/mrmjwalsh/image/upload/v1560091851/daniel-peters-156464-unsplash_1_zhlglc.jpg') no-repeat bottom right fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -126,6 +133,28 @@
      padding-top: 100px; 
 }
 
+/*------------------ Gallery --------------*/
+/*original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
+.gallery-thumbnail{ 
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  -o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border-radius: 5px; /*this code added by me*/
+}
+
+/* creates pleasing illusion of hovered image being raised up from the screen */
+/* original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
+.gallery-thumbnail:hover { 
+/*width and height of hover shadow changed by me*/
+  -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);
+          box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22); 
+}
+
+.gallery-img img{
+    width: 100%;
+}
 /*------------------ Contact--------------*/
 
 
