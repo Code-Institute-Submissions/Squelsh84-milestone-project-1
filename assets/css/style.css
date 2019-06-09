@@ -19,6 +19,7 @@
 .navbar {
     text-transform: uppercase;
     font-weight: 700;
+    opacity: .8;
     font-size: 1rem;
     letter-spacing: .1rem;
     padding-top: 1.5px;
@@ -163,9 +164,10 @@
 /*------------------ Contact--------------*/
 
 
-.contact-form {
-    position: relative;
-    
+
+
+/*------------------ Footer --------------*/
+
+.coyright {
+    font: #fff;
 }
-
-
