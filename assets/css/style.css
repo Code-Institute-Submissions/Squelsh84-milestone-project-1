@@ -100,7 +100,7 @@
 
 
 .jumbotron-wood {
-    background: url('https://res.cloudinary.com/mrmjwalsh/image/upload/v1560091851/daniel-peters-156464-unsplash_1_zhlglc.jpg') no-repeat bottom right fixed;
+    background: url('https://res.cloudinary.com/mrmjwalsh/image/upload/v1560092694/sticks_drying_ck7xkp.jpg') no-repeat bottom right fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -154,6 +154,11 @@
 
 .gallery-img img{
     width: 100%;
+}
+
+
+#gallery {
+    background-color:  rgba(0,0,0,0.25);
 }
 /*------------------ Contact--------------*/
 
