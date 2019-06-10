@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
 
 .container-fluid {
-     width: 100%;
+    width: 100%;
 }
 
 
@@ -9,7 +9,7 @@
 .body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-    color:#fff;
+    color: #fff;
     position: relative;
 }
 
@@ -94,10 +94,10 @@
 }
 
 
-.about-img{
+.about-img {
     position: relative;
     -webkit-background-size: cover;
-            background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
@@ -114,8 +114,7 @@
     background-color: #044bbf;
 }
 
-/*------------------ Types of Woods--------------*/
-
+/*------------------ Jumbotron Woods--------------*/
 
 .jumbotron-wood {
     background: url('https://res.cloudinary.com/mrmjwalsh/image/upload/v1560092694/sticks_drying_ck7xkp.jpg') no-repeat bottom right fixed;
@@ -128,17 +127,50 @@
     font-style: italic;
 }
 
+/*------------------ Types of Woods--------------*/
+
+.container-wood {
+    background-color: #699e22;
+}
+
+.wood-species {
+    padding-top: 4rem;
+}
+
+.species {
+    padding: 3rem;
+}
+
+.card {
+    
+    font: bold;
+    text-align: center;
+}
+
+.card-img-top {
+    opacity: .6;
+}
+
+.card-img-overlay {
+    opacity: 1;
+}
+
+/*------------------ Walking in time Video --------------*/
 
 
-
-/*------------------ Video --------------*/
+.walking {
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+}
 
 .videoWrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%;
+    /* 16:9 */
     padding-top: 25px;
     height: 0;
 }
+
 .videoWrapper iframe {
     position: absolute;
     top: 0;
@@ -148,40 +180,49 @@
 }
 
 .embed-responsive-16by9::before {
-     padding-top: 100px; 
+    padding-top: 100px;
 }
 
 /*------------------ Gallery --------------*/
+
+.artwork {
+    padding-top: 6rem;
+}
+
+
+
 /*original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
-.gallery-thumbnail{ 
-  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  -o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  border-radius: 5px; /*this code added by me*/
+
+.gallery-thumbnail {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    -o-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    border-radius: 5px;
+    /*this code added by me*/
 }
 
 /* creates pleasing illusion of hovered image being raised up from the screen */
+
 /* original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
-.gallery-thumbnail:hover { 
-/*width and height of hover shadow changed by me*/
-  -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);
-          box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22); 
+
+.gallery-thumbnail:hover {
+    /*width and height of hover shadow changed by me*/
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25), 0 3px 6px rgba(0, 0, 0, 0.22);
 }
 
-.gallery-img img{
+.gallery-img img {
     width: 100%;
 }
 
 
 #gallery {
-    background-color:  rgba(0,0,0,0.25);
+    background-color: rgba(0, 0, 0, 0.25);
 }
+
 /*------------------ Contact--------------*/
-
-
-
 
 /*------------------ Footer --------------*/
 
