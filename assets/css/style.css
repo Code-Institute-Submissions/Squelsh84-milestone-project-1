@@ -19,13 +19,28 @@
 .navbar {
     text-transform: uppercase;
     font-weight: 700;
-    opacity: .8;
+    opacity: 1;
     font-size: 1rem;
     letter-spacing: .1rem;
     padding-top: 1.5px;
     padding-bottom: 1.5px;
     background: transparent;
+    box-shadow: 2px 1px;
 }
+
+.navbar-nav li {
+    padding-right: .4rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #464333;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .nabar-nav .nav-link:hover {
+    color: #699e22;
+}
+
 
 
 /*------------------ Landing Page--------------*/
@@ -74,6 +89,8 @@
 
 .page-header {
     text-align: center;
+    margin-top: -4rem;
+    margin-bottom: .5rem;
 }
 
 
