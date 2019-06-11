@@ -220,12 +220,16 @@
 
 #gallery {
     background-color: rgba(0, 0, 0, 0.25);
+    height: 100vh;
+    
 }
 
 /*------------------ Contact--------------*/
-
+.contact-us {
+    height: 100vh;
+}
 /*------------------ Footer --------------*/
 
-.coyright {
-    font: #fff;
+.copyright {
+    color: #fff;
 }
