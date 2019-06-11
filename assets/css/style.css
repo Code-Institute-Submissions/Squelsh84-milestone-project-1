@@ -220,16 +220,44 @@
 
 #gallery {
     background-color: rgba(0, 0, 0, 0.25);
-    height: 100vh;
+    height: auto;
     
 }
 
 /*------------------ Contact--------------*/
-.contact-us {
-    height: 100vh;
+
+
+.center-form {
+    max-width: 80%;
+    margin: 0 auto;
 }
 /*------------------ Footer --------------*/
 
 .copyright {
     color: #fff;
+}
+
+.h5 {
+    text-align: center;
+}
+
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    line-height: 7px;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    background: #8f8f8f;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #699e22;
 }
