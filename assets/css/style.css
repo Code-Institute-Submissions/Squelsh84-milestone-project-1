@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Poppins:400,600,700&display=swap');
 
 .container-fluid {
     width: 100%;
@@ -8,11 +8,20 @@
 
 .body {
     overflow-x: hidden;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins','Playfair+Display', sans-serif;
     color: #fff;
     position: relative;
 }
 
+.heading {
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.intro {
+    font-family: 'Playfair+Display'
+    font-weight: 700;
+}
 
 /*------- Navigation ----------*/
 
@@ -53,6 +62,7 @@
     justify-content: center;
     position: relative;
     height: 100vh;
+    padding-top: 2rem;
 }
 
 .jumbotron {
@@ -189,6 +199,10 @@
     padding-top: 6rem;
 }
 
+.gallery-img {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
 
 /*original code credit: https://codepen.io/sdthornton/pen/wBZdXq */
@@ -230,6 +244,11 @@
 .center-form {
     max-width: 80%;
     margin: 0 auto;
+    border; bold;
+}
+
+.fullname, .e-mail, .project {
+    padding-bottom: 10px;
 }
 /*------------------ Footer --------------*/
 

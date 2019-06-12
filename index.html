@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
     <title>Maide Connemara</title>
 </head>
-
+<!--------------------------------------- Start Home Section ------------------------------------------->
 <body data-spy="scroll" datatarget="#navbarResponsive" id="home">
-    <!------ Start Home Section ---------->
 
 
-    <!-------------------- Start Navigation ------------------------------>
+
+    <!-------------------- Start Navigation ------------------------------------------------------>
 
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">Maide Connemara</a>
@@ -50,8 +50,9 @@
 
     <!------------------------------ End Navigation Section ---------------------------------->
 
-    <!-------------- Landing Page ---------->
-    <div class="container-fluid callout-container">
+    <!------------------------------------ Landing Page --------------------------------------------------------->
+    
+    <div class="container-fluid callout-container" id="main">
         <div class="opaque-overlay"></div>
         <div class="row">
             <div class="col-12">
@@ -64,10 +65,13 @@
         </div>
     </div>
 
-    <!------- End Landing ------>
-    <!--------- End Home Section -------->
+    <!------------------------------------- End Landing ------------------------------------------------------------->
+    
+    
+    
+<!------------------------------------ End Home Section ----------------------------------------------------->
 
-    <!--------Start About Us -------->
+    <!-----------------------------------------Start About Us ----------------------------------------------------->
     <section class="container-fluid text-center" id="about">
         <div class="row">
             <div class="col-12 page-header">
@@ -78,7 +82,7 @@
             <div class="col-sm-12 col-md-6 col-lg-3">
                 <figure class="about-img" title="Tools around the Workshop"></figure>
             </div>
-            <div class="col-sm-8 col-md-8 col-xs-16">
+            <div class="intro col-sm-8 col-md-8 col-xs-16">
                 <p>Michael learned how to cut his first stick from his late father, and other stick makers.The sticks he makes are not made for sale but are only for gifts to fellow walkers. Hazel , Ash and Blacthorn from Tipperary, Kilkenny, Laois, and
                     Connemara is normally used. The stick is first cut in the Winter, between November and March and left in a cool dry place for about 12 months. It is then steamed to straighten it, cleaned, sanded and shaped to suit the end user. A
                     ferrule (iron ring) is then added to the base, a strap to the handle and finally, the stick is treated with boiled linseed oil or Danish oil.</p>
@@ -86,9 +90,11 @@
         </div>
     </section>
 
-    <!--------End About Us----------->
+    <!-----------------------------------------End About Us------------------------------------------->
 
-    <!--------Start Jumbotron Woods Section-------->
+
+
+    <!--------------------------------Start Jumbotron Woods Section------------------------------------>
 
     <div class="jumbotron-wood" id="woods">
         <div class="container-fluid ">
@@ -96,9 +102,9 @@
         </div>
     </div>
 
-    <!--------End jumbotron wood Section-------->
+    <!----------------------------------End jumbotron wood Section----------------------------------------------------->
 
-    <!--------Start Woods Section-------->
+    <!-------------------------------Start Woods Section------------------------------------->
     <div class="container-fluid container-wood">
         <div class="row">
             <div class="col-12 text-center">
@@ -139,9 +145,12 @@
         </div>
     </div>
 
-    <!--------End Woods ----------->
+    <!--------------------------------End Woods ---------------------------------------->
 
-    <!--------Start Making Section-------->
+
+
+    <!------------------------Start Making Section-------------------------------------------->
+    
     <section id="story">
         <div class="container-fluid">
             <div class="col-12 page-header">
@@ -157,15 +166,15 @@
             </div>
         </div>
     </section>
-    <!--------End Making Section ----------->
+    <!----------------------------------End Making Section ----------------------------------->
 
 
-    <!--------Start Gallery Section-------->
+    <!-----------------------------------Start Gallery Section------------------------------------>
     <section id="gallery">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 page-header">
-                    <h2 class="text-uppercase artwork">Gallery</h2>
+                    <h2 class="heading text-uppercase artwork">Gallery</h2>
                 </div>
                 <div class="col-sm-12 col-md-10">
                     <div class="row justify-content-center text-center">
@@ -205,18 +214,28 @@
             </div>
         </div>
     </section>
-    <!--------End Gallery Section ----------->
+    <!---------------------------------End Gallery Section --------------------------------------->
 
-    <!--------Start Contact Section-------->
+
+
+    <!--------------------------Start Contact Section------------------------------------------->
+    
+    
     <section class="container-fluid" id="contact">
         <div class="row contact-us">
             <div class="col">
-                <h2 class="contact-heading uppercase text-center">Contact Us</h2>
+                <h2 class="heading uppercase text-center">Contact Us</h2>
                 <div class="center-form">
                     <form>
+                        <div class="fullname">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        </div>
+                        <div class="e-mail">
                         <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="project">
+                        <textarea rows="10" name="projectsummary" id="projectsummary" class="form-control" placeholder="Message" required></textarea>
+                        </div>
                         <div class="form-row text-center">
                             <div class="col">
                                 <button type="submit" class="btn btn-secondary">Ask Us</button>
