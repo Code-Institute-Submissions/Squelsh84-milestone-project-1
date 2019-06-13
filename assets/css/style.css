@@ -92,7 +92,8 @@
 /*------------------ About Us--------------*/
 
 #about {
-    padding: 100px;
+    padding: 100px 30px;
+    background-color: 	#DEE9E3;
 }
 
 .intro {
@@ -156,9 +157,13 @@
 }
 
 .card {
-    
     font: bold;
     text-align: center;
+}
+
+.card-title {
+    font-family: 'Poppins';
+    font-weight: 600;
 }
 
 .card-img-top {
@@ -167,6 +172,7 @@
 
 .card-img-overlay {
     opacity: 1;
+    width: 100%;
 }
 
 /*------------------ Walking in time Video --------------*/
@@ -209,10 +215,13 @@
 
 .jumbotron-workshop {
     background: url('/assets/images/workshop.jpg') no-repeat bottom right fixed;
-    background-size: cover;
+     background-size: cover;
     display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     height: 40vh;
+    font-style: italic;
 }
 /*------------------ Gallery --------------*/
 
@@ -255,7 +264,7 @@
 
 
 #gallery {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: white;
     height: auto;
     
 }
