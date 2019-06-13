@@ -195,14 +195,25 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
 }
 
 .embed-responsive-16by9::before {
     padding-top: 30px;
 }
 
+
+
+/*------------------ Jumbotron Workshop --------------*/
+
+.jumbotron-workshop {
+    background: url('/assets/images/workshop.jpg') no-repeat bottom right fixed;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    height: 40vh;
+}
 /*------------------ Gallery --------------*/
 
 .artwork {
