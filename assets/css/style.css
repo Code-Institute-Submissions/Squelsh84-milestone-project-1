@@ -55,7 +55,7 @@
 /*------------------ Landing Page--------------*/
 
 .callout-container {
-    background: url('/assets/images/house.jpg') no-repeat bottom right fixed;
+    background: url('assets/images/house.jpg') no-repeat bottom right fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -120,7 +120,7 @@
 
 
 .about-img {
-    background-image: url('/assets/images/michael.jpg');
+    background-image: url('assets/images/michael.jpg');
 }
 
 
