@@ -55,17 +55,11 @@
 /*------------------ Landing Page--------------*/
 
 .callout-container {
-    background: url('assets/images/house.jpg') no-repeat bottom right fixed;
+    background: url('..images/house.jpg') no-repeat bottom right fixed;
     background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     position: relative;
     height: 100vh;
 }
@@ -126,7 +120,7 @@
 
 
 .about-img {
-    background-image: url('assets/images/michael.jpg');
+    background-image: url('..images/michael.jpg');
 }
 
 
@@ -140,15 +134,9 @@
 .jumbotron-wood {
     background: url('https://res.cloudinary.com/mrmjwalsh/image/upload/v1560092694/sticks_drying_ck7xkp.jpg') no-repeat bottom right fixed;
     background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     position: relative;
     height: 60vh;
 }
@@ -229,15 +217,9 @@
 .jumbotron-workshop {
     background: url('https://res.cloudinary.com/mrmjwalsh/image/upload/v1560096077/Workshop.jpg') no-repeat bottom right fixed;
      background-size: cover;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     position: relative;
     height: 40vh;
 }
