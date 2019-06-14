@@ -55,7 +55,7 @@
 /*------------------ Landing Page--------------*/
 
 .callout-container {
-    background: url('..images/house.jpg') no-repeat bottom right fixed;
+    background: url('/assets/images/house.jpg') no-repeat bottom right fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -109,7 +109,6 @@
 
 
 .about-img {
-    size: auto;
     position: relative;
     -webkit-background-size: cover;
     background-size: cover;
@@ -120,7 +119,7 @@
 
 
 .about-img {
-    background-image: url('..images/michael.jpg');
+    background-image: url('/assets/images/michael.jpg');
 }
 
 
@@ -283,7 +282,6 @@
 .center-form {
     max-width: 80%;
     margin: 0 auto;
-    border; 1px solid black;
 }
 
 .fullname, .e-mail, .project {
