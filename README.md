@@ -7,6 +7,6 @@
 
 This is a fully responsive website designed for a local Stick making family run business. The main goal of the website is to create first contact with potential customers and to show off some current works.
 
-Please click [here](hhttps://squelsh84.github.io/milestone_project_1/) for a live demo of the website 
+Please click [here](https://squelsh84.github.io/milestone_project_1/) for a live demo of the website 
 
 # UX
