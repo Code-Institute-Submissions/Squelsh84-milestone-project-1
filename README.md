@@ -16,14 +16,14 @@ This website is targeted towards customers who are enthusiastic about hiking, tr
 # Technologies
 
 - Html and CSS were used.
-- [Cloud9](https://c9.io) - Used a developmet and testing area
+- [Cloud9](https://c9.io) - Used a developmet and testing area.
 - [BootstrapCDN](https://www.bootstrapcdn.com/) - Bootstrap framework to create responsive design and fontawesome for social icon.
 - [fancybox](https://fancyapps.com/fancybox/3/) - Creates a gallery modal popup.
-- [Google Fonts](https://fonts.google.com/) - Used to style the fonts of the website
-- [Vimeo](https://vimeo.com) - Used to host video used in walking in time area
+- [Google Fonts](https://fonts.google.com/) - Used to style the fonts of the website.
+- [Vimeo](https://vimeo.com) - Used to host video used in walking in time area.
 - [jQuery](https://jquery.com/) - To make certain features function on the page.
 - [Cloudinary](https://cloudinary.com/) - To host large images.
-- [Git](https://github.com)- Used as a repository
+- [Git](https://github.com)- Used as a repository.
 
 
 ## Features
@@ -68,6 +68,10 @@ Allows the customer to connect and follow the craftsman’s other pages.
 - Used [Browserling](https://www.browserling.com/) to test the website across multiple browsers.
 
 ### Issues when Testing
+- On certain screen sizes the padding on the sides of the about us section were creating a long text. I reduced the padding to creae a larger area.
+- The navbar menu was taking up to much screen space on the iPad. To fix this I changed it to become a 'hamburger menu' from lg down.
+- The type of woods cards were leaking over into the next container. 
+- 
 
 
 ## Deployment
@@ -76,26 +80,26 @@ The website was developed using Cloud9 IDE, it was then committed to git and pus
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
-1 - Log into GitHub.
-2 - Select the repository **Squelsh84/milestone_project_1**.
-3 - At the top of the page, select *settings*.
-4 - Scroll down to the GitHub Pages section.
-5 - Under Source, select **Master Branch**
-6 - The live link for the website will now appear beneath the **GitHub Pages** header.
-7 - Click the link and a live website will open in a new tab.
+- Log into GitHub.
+- Select the repository **Squelsh84/milestone_project_1**.
+- At the top of the page, select *settings*.
+- Scroll down to the GitHub Pages section.
+- Under Source, select **Master Branch**
+- The live link for the website will now appear beneath the **GitHub Pages** header.
+- Click the link and a live website will open in a new tab.
 
 
 ### How to run this project locally
 If you wish to clone this project from GitHub:
 
-1 - Click on this [link](https://github.com/Squelsh84/milestone_project_1) to the GitHub repository.
-2 - There is a green button saying "Clone or download" on the right hand side,  click on this.
-3 - Next copy the clone URL for the repository that is provided.
-4 - Open Git Bash in your local IDE.
-5 - Change the current working directory to the location where you want the cloned directory to be created.
-6 - Type git clone, and then paste the URL copied in Step 3.
-7 - Git clone https://github.com/yourusername/repository
-8 - Press Enter to create your local clone.
+- Click on this [link](https://github.com/Squelsh84/milestone_project_1) to the GitHub repository.
+- There is a green button saying "Clone or download" on the right hand side,  click on this.
+- Next copy the clone URL for the repository that is provided.
+- Open Git Bash in your local IDE.
+- Change the current working directory to the location where you want the cloned directory to be created.
+- Type git clone, and then paste the URL copied in Step 3.
+- Git clone https://github.com/yourusername/repository
+- Press Enter to create your local clone.
 
 ## Credits
 
