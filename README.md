@@ -2,7 +2,7 @@
 
  My First Milestone Project for Code Institute is a website idea for a real business. My father has been making Handcrafted walking sticks for years but has only ever given them away for free or people have bought them when calling to the house. 
 This is a fully responsive website designed to create a funnel to create first contact with potential customers.
-##
+
 Please click [here](https://squelsh84.github.io/milestone_project_1/) for a live demo of the website 
 
 # UX
@@ -47,19 +47,27 @@ Customers can see how previous pieces of work have turned out and when clicked c
 #### Feature 6 – Contact Form
 Allows potential customers to ask questions about pieces in the gallery or to start the process of ordering a piece.
 
-#### Feature 7 - Social media icons in footer
+#### Feature 7 – Social media icons in footer
 Allows the customer to connect and follow the craftsman’s other pages.
 
 
 
 ### Features Left to Implement
-~ Add a payment feature for sticks available.
-~ A map of forests for best walks
-~ Create a blog section to share information about the art of Stick making and some walks around Ireland.
-~ GDPR compliant pop-up screen to make sure the website complies with European law.
+- Add a payment feature for sticks available.
+- A map of forests for best walks
+- Create a blog section to share information about the art of Stick making and some walks around Ireland.
+- GDPR compliant pop-up screen to make sure the website complies with European law.
 
 
-## Testing
+## Testing 
+- Used Google Chrome developer tools to test website responsiveness across multiple devies such as Tablets and Mobiles.
+- Tested the contact form for the required attribute. With this attribute it will not let you submit the form with the required information.
+- tested that the smooth scroll worked when clicking on the links in the Navbar.
+- Tested the link buttons to esure the responded correctly.
+- Used [W3c validator](https://validator.w3.org/) to validate both HTML and CSS.
+- Used [Browserling](https://www.browserling.com/) to test the website across multiple browsers.
+
+### Issues when Testing
 
 
 ## Deployment
@@ -68,26 +76,26 @@ The website was developed using Cloud9 IDE, it was then committed to git and pus
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
-1 Log into GitHub.
-2 Select the repository **Squelsh84/milestone_project_1**.
-3 At the top of the page, select *settings*.
-4 Scroll down to the GitHub Pages section.
-5 Under Source, select **Master Branch**
-6 The live link for the website will now appear beneath the **GitHub Pages** header.
-7 Click the link and a live website will open in a new tab.
+1 - Log into GitHub.
+2 - Select the repository **Squelsh84/milestone_project_1**.
+3 - At the top of the page, select *settings*.
+4 - Scroll down to the GitHub Pages section.
+5 - Under Source, select **Master Branch**
+6 - The live link for the website will now appear beneath the **GitHub Pages** header.
+7 - Click the link and a live website will open in a new tab.
 
 
 ### How to run this project locally
 If you wish to clone this project from GitHub:
 
-1 Click on this [link](https://github.com/Squelsh84/milestone_project_1) to the GitHub repository.
-2 There is a green button saying "Clone or download" on the right hand side,  click on this.
-3 Next copy the clone URL for the repository that is provided.
-4 Open Git Bash in your local IDE.
-5 Change the current working directory to the location where you want the cloned directory to be created.
-6 Type git clone, and then paste the URL copied in Step 3.
-7 git clone https://github.com/yourusername/repository
-8 Press Enter to create your local clone.
+1 - Click on this [link](https://github.com/Squelsh84/milestone_project_1) to the GitHub repository.
+2 - There is a green button saying "Clone or download" on the right hand side,  click on this.
+3 - Next copy the clone URL for the repository that is provided.
+4 - Open Git Bash in your local IDE.
+5 - Change the current working directory to the location where you want the cloned directory to be created.
+6 - Type git clone, and then paste the URL copied in Step 3.
+7 - Git clone https://github.com/yourusername/repository
+8 - Press Enter to create your local clone.
 
 ## Credits
 
