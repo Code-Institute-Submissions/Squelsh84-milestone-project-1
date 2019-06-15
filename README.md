@@ -1,7 +1,8 @@
 # Maide Connemara
 
  My First Milestone Project for Code Institute is a website idea for a real business. My father has been making Handcrafted walking sticks for years but has only ever given them away for free or people have bought them when calling to the house. 
-This is a fully responsive website designed to create a funnel to create first contact with potential customers. 
+This is a fully responsive website designed to create a funnel to create first contact with potential customers.
+##
 Please click [here](https://squelsh84.github.io/milestone_project_1/) for a live demo of the website 
 
 # UX
