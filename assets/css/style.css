@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Poppins:400,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,600,700&display=swap');
 
 .container-fluid {
     width: 100%;
@@ -8,22 +8,26 @@
 
 .body {
     overflow-x: hidden;
-    font-family: 'Poppins','Playfair+Display', sans-serif;
+    font-family:'Playfair+Display', 'Source+Sans+Pro', sans-serif;
     color: #fff;
     position: relative;
 }
 
-.heading {
-    font-family: 'Poppins';
-    font-weight: 700;
+.slogan {
+    font-family: 'Source+Sans+Pro'
 }
 
-.intro {
+.heading {
     font-family: 'Playfair+Display';
     font-weight: 700;
 }
 
-/*------- Navigation ----------*/
+.intro {
+    font-family: 'Source+Sans+Pro';
+    font-weight: 600;
+}
+
+/*----------------------- Navigation --------------------------------------------*/
 
 .navbar {
     text-transform: uppercase;
@@ -52,10 +56,10 @@
 
 
 
-/*------------------ Landing Page--------------*/
+/*---------------------------- Landing Page------------------------------------------------*/
 
 .callout-container {
-    background: url('assets/images/house.jpg') no-repeat bottom right fixed;
+    background: url('https://res.cloudinary.com/mrmjwalsh/image/upload/v1560599124/house_i82htf.jpg') no-repeat bottom right fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -89,7 +93,7 @@
 
 
 
-/*------------------ About Us--------------*/
+/*------------------------------------ About Us---------------------------------------*/
 /* Padding set as mobile view wasn't full width*/
 #about {
     padding: 100px 30px;
@@ -119,7 +123,7 @@
 
 
 .about-img {
-    background-image: url('assets/images/michael.jpg');
+    background-image: url('https://res.cloudinary.com/mrmjwalsh/image/upload/v1560599346/Michael.jpg');
 }
 
 
@@ -227,7 +231,7 @@
 
 
 #gallery {
-    background-color:  #f2f2f2;
+    background-color: #699e22;
     height: auto;
     
 }
@@ -268,6 +272,10 @@
 
 /*------------------ Contact--------------*/
 
+#contact {
+    background-color: #f2f2f2;
+}
+
 .contact-us {
     padding-bottom: 2rem;
 }
@@ -277,7 +285,7 @@
 }
 
 .center-form {
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -290,8 +298,12 @@
     color: #fff;
 }
 
+.list-inline {
+    padding-top: 10px;
+}
+
 .container-foot {
-    background-color: #59522c;
+    background-color: #8d8741;
 }
 
 .h5 {
