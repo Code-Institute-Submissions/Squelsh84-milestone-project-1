@@ -1,13 +1,32 @@
 # Maide Connemara
 
- My First Milestone Project for Code Institute is a website idea for a real business. My father has been making Handcrafted walking sticks for years but has only ever given them away for free or people have bought them when calling to the house. 
+My First Milestone Project for Code Institute is a website idea for a real business. My father has been making Handcrafted walking sticks for years but has only ever given them away for free or people have bought them when calling to the house. 
 This is a fully responsive website designed to create a funnel to create first contact with potential customers.
 
 Please click [here](https://squelsh84.github.io/milestone_project_1/) for a live demo of the website 
 
 # UX
- The aim of th design was to create a first contact with potential customers using a simple scroll down design. 
-This website is targeted towards customers who are enthusiastic about hiking, trekking and trail walking.
+ 
+#### Who is the target audience?  
+- A person who is interested in hiking.
+- Uses Walking sticks for hiking or everyday walking.
+- Looking for a unique piece that can't be bought in a store.
+
+#### Why is this the best way to target the audience?
+- The website is designed to lead the customer down through the page to create the initial contact. As the person makes their way down the page the learn about the person to build a rapor.
+Next they learn about the types of wood used and a video of the workshop. Following this the see some sticks that have been made and the different types of woods used. This helps the potential customer to have an idea of what they want.
+At the end they will be able to make contact through the simple contact form provided at the bottom.
+
+## User Stories
+
+1. As a user, I want to know where the material was sourced.
+2. As a user, I want to know what wood is used.
+3. As a user, I want to see previous work.
+4. As a user, I want to be able to make contact easily.
+
+
+
+
 ### Wireframe
 
 - [Link to my Wireframe on Figma](https://www.figma.com/file/ejZ5n3XOZiFXWCiDn8KqzQPg/Milestone-Project-1?node-id=0%3A1)
@@ -71,7 +90,7 @@ Allows the customer to connect and follow the craftsman’s other pages.
 - On certain screen sizes the padding on the sides of the about us section were creating a long text. I reduced the padding to creae a larger area.
 - The navbar menu was taking up to much screen space on the iPad. To fix this I changed it to become a 'hamburger menu' from lg down.
 - The type of woods cards were leaking over into the next container. 
-- 
+- When testing on different browser I found the code had not been optimised and used [Autoprefixer](https://autoprefixer.github.io/) to optimize it.
 
 
 ## Deployment
@@ -82,7 +101,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 
 - Log into GitHub.
 - Select the repository **Squelsh84/milestone_project_1**.
-- At the top of the page, select *settings*.
+- At the top of the page, select **Settings**.
 - Scroll down to the GitHub Pages section.
 - Under Source, select **Master Branch**
 - The live link for the website will now appear beneath the **GitHub Pages** header.
@@ -109,8 +128,12 @@ All content on the page was written by me.
 ### Media
 Photos for the types of woods were sourced using goolge images.
 All the photos in the gallery and video in this website were provided by Mark Walsh and Benjamin Walsh. His work can be found [here]( https://www.benjaminwalsh.ie/)
+Favicon was created using[Canva](https://www.canva.com/)
+Footer social icons were taken from the "rosie cv" module.
 
 ### Acknowledgements
+
+Big thank you to my mentor Seun Owonikoko who guided me through this project. Also thank you to Anna Greaves who provieds a wealth of information and material on slack.
 
 **This is for educational use.** 
 

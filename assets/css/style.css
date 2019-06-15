@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,600,700&display=swap');
 
-
+/*--------------------used because the scroll was jumpping from one link to the next----*/
 html {
   scroll-behavior: smooth;
 }
@@ -18,7 +18,7 @@ html {
 
 
 .slogan {
-    font-family: 'Source+Sans+Pro'
+    font-family: 'Source+Sans+Pro';
 }
 
 .heading {
@@ -31,7 +31,7 @@ html {
     font-weight: 600;
 }
 
-/*----------------------- Navigation --------------------------------------------*/
+/*------------------------------------------- Navigation --------------------------------------------*/
 
 .navbar {
     text-transform: uppercase;
@@ -144,7 +144,7 @@ html {
     background-color: #044bbf;
 }
 
-/*------------------ Jumbotron Woods--------------*/
+/*-------------------------------------------- Jumbotron Woods------------------------------------*/
 
 .jumbotron-wood {
     background: url('https://res.cloudinary.com/mrmjwalsh/image/upload/v1560092694/sticks_drying_ck7xkp.jpg') no-repeat bottom right fixed;
@@ -162,7 +162,7 @@ html {
     height: 60vh;
 }
 
-/*------------------ Types of Woods--------------*/
+/*----------------------------------------------- Types of Woods-------------------------------------*/
 
 .container-wood {
     background-color: #699e22;
@@ -183,7 +183,7 @@ html {
 }
 
 .card-title {
-    font-family: 'Poppins';
+    font-family: 'Playfair+Display';
     font-weight: 600;
 }
 
@@ -196,7 +196,8 @@ html {
     width: 100%;
 }
 
-/*------------------ Walking in time Video --------------*/
+
+/*------------------------------------------- Walking in time Video -------------------------------------*/
 
 .walking {
     padding-top: 6rem;
@@ -233,7 +234,7 @@ html {
 
 
 
-/*------------------ Jumbotron Workshop --------------*/
+/*------------------------------------------ Jumbotron Workshop ------------------------------------*/
 
 .jumbotron-workshop {
     background: url('https://res.cloudinary.com/mrmjwalsh/image/upload/v1560096077/Workshop.jpg') no-repeat bottom right fixed;
@@ -251,7 +252,7 @@ html {
     height: 40vh;
 }
 
-/*------------------ Gallery --------------*/
+/*-------------------------------------- Gallery ----------------------------------------------*/
 
 #gallery {
     background-color: #699e22;
@@ -299,17 +300,13 @@ html {
     background-color: #f2f2f2;
 }
 
-.contact-heading {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
 
 .contact-us {
     padding-bottom: 2rem;
 }
 
 .contact-heading {
-    padding-top: 4rem;
+    padding-top: 1rem;
     padding-bottom: 2rem;
 }
 
@@ -343,7 +340,7 @@ html {
     text-align: center;
 }
 
-
+/*---------- Code from Rosie.cv module --------*/
 .social-links li a i {
     width: 50px;
     height: 50px;
