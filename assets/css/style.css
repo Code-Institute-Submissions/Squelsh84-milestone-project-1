@@ -187,8 +187,12 @@ html {
     font-weight: 600;
 }
 
+.card-text {
+    font-family: 'Source+Sans+Pro';
+}
+
 .card-img-top {
-    opacity: .6;
+    opacity: .4;
 }
 
 .card-img-overlay {
@@ -257,7 +261,6 @@ html {
 #gallery {
     background-color: #699e22;
     height: auto;
-
 }
 
 .artwork {
