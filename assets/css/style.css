@@ -363,3 +363,29 @@ html {
 .social-links li a i:hover {
     background: #699e22;
 }
+
+
+
+/*-----------------------Media queries--------------------------*/
+
+
+/*-------- Created these media queries for the type of wood section because there was issues with overlapping and streching into other containers-----*/
+@media (max-width: 768px) {
+  .card-deck {
+    display: block;
+}
+   .species {
+    padding: 0;
+}
+   .wood-species {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.container-wood {
+    padding-bottom: 10px;
+}
+}
+
+
+
+
