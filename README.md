@@ -116,7 +116,7 @@ If you wish to clone this project from GitHub:
 - Next copy the clone URL for the repository that is provided.
 - Open Git Bash in your local IDE.
 - Change the current working directory to the location where you want the cloned directory to be created.
-- Type git clone, and then paste the URL copied in Step 3.
+- Type ```git clone```, and then paste the URL copied in Step 3.
 - Git clone https://github.com/yourusername/repository
 - Press Enter to create your local clone.
 
