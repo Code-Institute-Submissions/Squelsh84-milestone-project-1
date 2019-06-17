@@ -64,7 +64,7 @@ html {
 /*---------------------------- Landing Page------------------------------------------------*/
 
 .callout-container {
-    background: url('images/house.jpg') no-repeat bottom right fixed;
+    background: url('.images/house.jpg') no-repeat bottom right fixed;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -135,7 +135,7 @@ html {
 
 
 .about-img {
-    background-image: url('images/Michael.jpg');
+    background-image: url('/images/Michael.jpg');
 }
 
 
@@ -147,7 +147,7 @@ html {
 /*-------------------------------------------- Jumbotron Woods------------------------------------*/
 
 .jumbotron-wood {
-    background: url('images/sticks drying.jpg') no-repeat bottom right fixed;
+    background: url('/sticks drying.jpg') no-repeat bottom right fixed;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
