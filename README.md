@@ -89,8 +89,10 @@ Allows the customer to connect and follow the craftsman’s other pages.
 ### Issues when Testing
 - On certain screen sizes the padding on the sides of the about us section were creating a long text. I reduced the padding to creae a larger area.
 - The navbar menu was taking up to much screen space on the iPad. To fix this I changed it to become a 'hamburger menu' from lg down.
-- The type of woods cards were leaking over into the next container. 
+- The type of woods cards were leaking over into the next container. I created media queries to fix this issue.
 - When testing on different browser I found the code had not been optimised and used [Autoprefixer](https://autoprefixer.github.io/) to optimize it.
+- Page was loading very slowly. My image files were too large and after using [Shortpixel](https://shortpixel.com/) the images were reduced in size and the page loaded much faster.
+- Gallery was opening up multiple tabs after going to contact and back to gallery.
 
 
 ## Deployment
