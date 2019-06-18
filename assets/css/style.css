@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,600,700&display=swap');
 
 /*--------------------used because the scroll was jumpping from one link to the next----*/
+
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 .container-fluid {
@@ -180,6 +181,16 @@ html {
 .card {
     font: bold;
     text-align: center;
+
+}
+
+.card-deck .species {
+        margin: auto;
+    }
+    
+.img-top {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .card-title {
@@ -193,6 +204,8 @@ html {
 
 .card-img-top {
     opacity: .4;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .card-img-overlay {
@@ -258,7 +271,7 @@ html {
 
 /*-------------------------------------- Gallery ----------------------------------------------*/
 
-#gallery {
+#gal {
     background-color: #699e22;
     height: auto;
 }
@@ -326,7 +339,6 @@ html {
 
 /*------------------ Footer --------------*/
 
-
 .copyright {
     color: #fff;
 }
@@ -336,7 +348,7 @@ html {
 }
 
 .container-foot {
-    background-color: #8d8741;
+    background-color: #699e22;
 }
 
 .h5 {
@@ -344,6 +356,7 @@ html {
 }
 
 /*---------- Code from Rosie.cv module --------*/
+
 .social-links li a i {
     width: 50px;
     height: 50px;
@@ -368,24 +381,35 @@ html {
 
 /*-----------------------Media queries--------------------------*/
 
-
 /*-------- Created these media queries for the type of wood section because there was issues with overlapping and streching into other containers-----*/
+
 @media (max-width: 768px) {
-  .card-deck {
+    .card-deck {
     display: block;
-}
-   .species {
+    }
+    
+.species {
     padding: 0;
-}
-   .wood-species {
+    }
+    
+.wood-species {
     padding-top: 2rem;
     padding-bottom: 1rem;
-}
+    }
 .container-wood {
     padding-bottom: 10px;
+    }
 }
+
+@media (max-width: 768px) {
+    .card-deck .card {
+    display: flex;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 250px;
+    margin-bottom: 15px;
+    }
+    
 }
-
-
-
-
