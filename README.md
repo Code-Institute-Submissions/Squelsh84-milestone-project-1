@@ -92,7 +92,7 @@ Allows the customer to connect and follow the craftsman’s other pages.
 - The type of woods cards were leaking over into the next container. I created media queries to fix this issue.
 - When testing on different browser I found the code had not been optimised and used [Autoprefixer](https://autoprefixer.github.io/) to optimize it.
 - Page was loading very slowly. My image files were too large and after using [Shortpixel](https://shortpixel.com/) the images were reduced in size and the page loaded much faster.
-- Gallery was opening up multiple tabs after going to contact and back to gallery.
+- Gallery was opening up multiple tabs after going to contact and back to gallery. To fix this issue I changed the id of the section and rewrote the code again. 
 
 
 ## Deployment
