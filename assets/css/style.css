@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,600,700&display=swap');
 
-/*--------------------used because the scroll was jumpping from one link to the next----*/
+/*---used because the scroll was jumpping from one link to the next---*/
 
 html {
     scroll-behavior: smooth;
@@ -12,27 +12,28 @@ html {
 
 .body {
     overflow-x: hidden;
-    font-family: 'Playfair+Display', 'Source+Sans+Pro', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #fff;
     position: relative;
 }
 
 
 .slogan {
-    font-family: 'Source+Sans+Pro';
+    font-family: 'Source Sans Pro';
 }
 
 .heading {
-    font-family: 'Playfair+Display';
+    font-family: 'Playfair Display';
     font-weight: 700;
 }
 
-.intro {
-    font-family: 'Source+Sans+Pro';
+.center-form .intro {
+    font-family: 'Source Sans Pro';
     font-weight: 600;
 }
 
-/*------------------------------------------- Navigation --------------------------------------------*/
+/*---------------- Navigation -----------------*/
 
 .navbar {
     text-transform: uppercase;
@@ -62,7 +63,7 @@ html {
 
 
 
-/*---------------------------- Landing Page------------------------------------------------*/
+/*----------- Landing Page------------------*/
 
 .callout-container {
     background: url('../images/house.jpg') no-repeat bottom right fixed;
@@ -105,7 +106,7 @@ html {
 
 
 
-/*------------------------------------ About Us---------------------------------------*/
+/*------------- About Us----------------------*/
 
 /* Padding set as mobile view wasn't full width*/
 
@@ -145,7 +146,7 @@ html {
     background-color: #044bbf;
 }
 
-/*-------------------------------------------- Jumbotron Woods------------------------------------*/
+/*------------ Jumbotron Woods------------------*/
 
 .jumbotron-wood {
     background: url('../images/sticksdrying.jpg') no-repeat bottom right fixed;
@@ -163,7 +164,7 @@ html {
     height: 60vh;
 }
 
-/*----------------------------------------------- Types of Woods-------------------------------------*/
+/*----------------- Types of Woods----------------------*/
 
 .container-wood {
     background-color: #699e22;
@@ -194,12 +195,12 @@ html {
 }
 
 .card-title {
-    font-family: 'Playfair+Display';
+    font-family: 'Playfair Display';
     font-weight: 600;
 }
 
 .card-text {
-    font-family: 'Source+Sans+Pro';
+    font-family: 'Source Sans Pro';
 }
 
 .card-img-top {
@@ -214,7 +215,7 @@ html {
 }
 
 
-/*------------------------------------------- Walking in time Video -------------------------------------*/
+/*-------------------- Walking in time Video --------------------*/
 
 .walking {
     padding-top: 6rem;
@@ -251,7 +252,7 @@ html {
 
 
 
-/*------------------------------------------ Jumbotron Workshop ------------------------------------*/
+/*------------- Jumbotron Workshop ----------------*/
 
 .jumbotron-workshop {
     background: url('../images/workshop.jpg') no-repeat bottom right fixed;
@@ -269,7 +270,7 @@ html {
     height: 40vh;
 }
 
-/*-------------------------------------- Gallery ----------------------------------------------*/
+/*------------ Gallery ---------------------*/
 
 #gal {
     background-color: #699e22;
@@ -310,7 +311,7 @@ html {
 
 
 
-/*------------------ Contact--------------*/
+/*------------ Contact--------------*/
 
 #contact {
     background-color: #f2f2f2;
@@ -337,7 +338,7 @@ html {
     padding-bottom: 10px;
 }
 
-/*------------------ Footer --------------*/
+/*-------------- Footer --------------*/
 
 .copyright {
     color: #fff;
@@ -355,7 +356,7 @@ html {
     text-align: center;
 }
 
-/*---------- Code from Rosie.cv module --------*/
+/*------- Code from Rosie.cv module --------*/
 
 .social-links li a i {
     width: 50px;
@@ -381,7 +382,9 @@ html {
 
 /*-----------------------Media queries--------------------------*/
 
-/*-------- Created these media queries for the type of wood section because there was issues with overlapping and streching into other containers-----*/
+/*-------- Created these media queries for the type of wood section
+            because there was issues with overlapping 
+            and streching into other containers-----*/
 
 @media (max-width: 768px) {
     .card-deck {
