@@ -13,7 +13,7 @@ This is a fully responsive website designed to create a funnel to create first c
 - Looking for a unique piece that can't be bought in a store.
 
 #### Why is this the best way to target the audience?
-- The website is designed to lead the customer down through the page to create the initial contact. As the person makes their way down the page the learn about the person to build a rapport.
+The website is designed to lead the customer down through the page to create the initial contact. As the person makes their way down the page the learn about the person to build a rapport.
 Next, they learn about the types of wood used and a video of the workshop. Following this the see some sticks that have been made and the different types of woods used. This helps the potential customer to have an idea of what they want.
 At the end they will be able to make contact through the simple contact form provided at the bottom.
 
