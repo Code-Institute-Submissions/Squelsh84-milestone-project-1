@@ -29,7 +29,7 @@ At the end they will be able to make contact through the simple contact form pro
 
 ### Wireframe
 
-- [Link to my Wireframe on Figma](https://www.figma.com/file/ejZ5n3XOZiFXWCiDn8KqzQPg/Milestone-Project-1?node-id=0%3A1)
+- [Link to my Wireframe on Figma](https://www.figma.com/file/ejZ5n3XOZiFXWCiDn8KqzQPg/Milestone-Project-1?node-id=35%3A206)
 	- I decided to use figma to create my wireframe because it gave me a real visual of what I wanted to implement. It took some time as I found it challenging but was worth it.
 
 # Technologies
