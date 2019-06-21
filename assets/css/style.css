@@ -386,6 +386,7 @@ html {
             because there was issues with overlapping 
             and streching into other containers-----*/
 
+
 @media (max-width: 768px) {
     .card-deck {
     display: block;
